@@ -52,10 +52,12 @@ def pascal_triangle(n):
         triangle.append(row)
     
     return triangle
+```
 
-Usage Example
+### Usage Example
 You can test the function with the following code:
 
+```
 if __name__ == "__main__":
     pascal_triangle = __import__('0-pascal_triangle').pascal_triangle
     
@@ -64,8 +66,9 @@ if __name__ == "__main__":
             print("[{}]".format(",".join([str(x) for x in row])))
 
     print_triangle(pascal_triangle(5))
+```
 
-Running the above code should produce the following output:
+### Running the above code should produce the following output:
 
 [1]
 [1,1]
@@ -73,11 +76,11 @@ Running the above code should produce the following output:
 [1,3,3,1]
 [1,4,6,4,1]
 
-Repository Structure
+## Repository Structure
 GitHub repository: alx-interview
 Directory: 0x00-pascal_triangle
 File: 0-pascal_triangle.py
 
-License
+# License
 This project is licensed under the ALX Program.
 
